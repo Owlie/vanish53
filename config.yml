@@ -1,0 +1,82 @@
+settings:
+    #   -------------------------------------------
+    #   VANISH SETTINGS
+    #   -------------------------------------------
+    
+    default-vanish: true
+    #   TRUE: The default vanish (on/off) method will be SILENT
+    #   FALSE: The default vanish (on/off) method will be LOUD
+    
+    silent-join: true
+    #   TRUE: You will join the server already vanished
+    
+    #   -------------------------------------------
+    #   INTERACTION SETTINGS
+    #   -------------------------------------------
+    
+    silent-chests: true
+    #   TRUE: Right-clicking chests while vanished with silently present it's contents to the user
+    
+    disable-chat: true
+    #   TRUE: Disables chat to keep you from inadvertently chatting in public
+    
+    ignore-mobs: true
+    #   TRUE: Mobs will ignore you completely
+    
+    ignore-items: true
+    #   TRUE: You will not pick up items
+    
+    disable-drop: true
+    #   TRUE: Dropping items will be disabled to prevent inadvertent drops
+    
+    disable-build: true
+    #   TRUE: You will not be able to place or break blocks
+    
+    disable-triggers: true
+    #   TRUE: All pressure plates, trip wires, levers, and buttons will be disabled
+    
+    disable-doors: true
+    #   TRUE: All doors, gates, and trapdoors will be disabled
+
+vanish-effects:
+    #   -------------------------------------------
+    #   LOUD VANISH EFFECTS
+    #   -------------------------------------------
+
+    enabled: true
+    broadcast: true
+    message: "&d{player} is now available."
+    
+    lightning: false
+    growl: false
+    smoke: false
+    explosion: false
+    levelup: true
+    drop-exp: true
+    drop-item: true
+    drop-item-type: diamond
+    
+unvanish-effects:
+    #   -------------------------------------------
+    #   LOUD UN-VANISH EFFECTS
+    #   -------------------------------------------
+    
+    enabled: true
+    broadcast: true
+    message: "&d{player} is now available."
+    
+    lightning: true
+    growl: true
+    smoke: false
+    explosion: false
+    levelup: false
+    drop-exp: false
+    drop-item: false
+    drop-item-type: diamond
+    
+plugin:
+    version: "2.0"
+    #   DO NOT EDIT VERSION INFO!
+    metrics: false
+    #   Set metrics to false if you do not want this plugin to report usage
+    

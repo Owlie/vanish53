@@ -1,0 +1,50 @@
+name: vanish53
+main: net.econcraft.vanish53.Main53
+version: 2.0
+description: This plugin will vanish its user from all other players with custom effects and messages.
+author: Owlie453
+website: http://econcraft.net/
+databse: no
+prefix: Vanish53
+softdepend: [Essentials]
+commands:
+    vanish:
+        aliases: [v]
+        description: Vanish53 will completely hide you from other players.
+        permission: vanish53.vanish
+        permission-message: You do not have the proper permissions to use this command.
+        usage: no usage set
+permissions:
+    vanish53.owner:
+        description: Full access to vanish53 permissions
+        children:
+            vanish53.vanish: true
+            vanish53.other: true
+            vanish53.see: true
+            vanish53.inv: true
+            vanish53.potion: true
+            vanish53.ender: true
+            vanish53.search: true
+    vanish53.admin:
+        description: Administrative access to vanish53 permissions
+        children:
+            vanish53.vanish: true
+            vanish53.see: true
+            vanish53.inv: true
+            vanish53.edner: true
+            vanish53.potion: false
+            vanish53.other: false
+    vanish53.vanish:
+        description: This permission allows a player to use the vanish plugin
+    vanish53.other:
+        description: This permission allows a player to use the vanish command on other players
+    vanish53.see:
+        description: This permission allows a player to see other vanished players
+    vanish53.inv:
+        description: Allows the user to right-click players to see their inventories
+    vanish53.potion:
+        description: Allows the user to conjur potions
+    vanish53.ender:
+        description: Allows the user to view a player's enderchest
+    vanish53.search:
+        description: Not used
