@@ -1,6 +1,5 @@
 # vanish53 2.0
 Vanishing+ Minecraft CraftBukkit Plugin
-======
 
 ## Developed for CraftBukkit 1.7.2-R0.2
 
